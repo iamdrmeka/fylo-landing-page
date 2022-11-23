@@ -1,0 +1,470 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: hsl(0deg, 0%, 75%);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(170deg, 45%, 43%);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(224deg, 93%, 58%);
+}
+
+/*may the CSS coding begin*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 1rem 1rem 3rem;
+  margin-bottom: 3rem;
+}
+header .logo-container img {
+  width: 150px;
+}
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 2rem 0 0;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: hsl(243deg, 87%, 12%);
+  font-size: 1.2rem;
+}
+
+.section-one {
+  display: flex;
+  padding: 2.3rem;
+  margin-bottom: 4rem;
+}
+.section-one .section-one-box {
+  width: 50%;
+}
+.section-one .section-one-box.txt {
+  padding: 3rem 1rem 0 0;
+}
+.section-one .section-one-box.txt h1 {
+  font-size: 2.5rem;
+  color: hsl(243deg, 87%, 12%);
+  font-family: "Raleway", sans-serif;
+  line-height: 3.5rem;
+  margin-bottom: 1rem;
+}
+.section-one .section-one-box.txt p {
+  font-size: 1.4rem;
+  color: hsl(243deg, 87%, 12%);
+  line-height: 1.8rem;
+  margin-bottom: 1.4rem;
+}
+.section-one .section-one-box.txt form [type=email] {
+  width: 300px;
+  height: 40px;
+  border: 1px solid hsl(243deg, 87%, 12%);
+  padding: 1rem;
+  display: inline-block;
+  margin: 0 1rem 0 0;
+  color: hsla(0deg, 0%, 75%, 0.796);
+  border-radius: 5px;
+  outline: none;
+}
+.section-one .section-one-box.txt form [type=email]::-moz-placeholder {
+  opacity: 0.5;
+}
+.section-one .section-one-box.txt form [type=email]:-ms-input-placeholder {
+  opacity: 0.5;
+}
+.section-one .section-one-box.txt form [type=email]::placeholder {
+  opacity: 0.5;
+}
+.section-one .section-one-box.txt form [type=email]:focus {
+  border: 1px solid red;
+  color: hsl(243deg, 87%, 12%);
+}
+.section-one .section-one-box.txt form [type=submit] {
+  width: 200px;
+  height: 40px;
+  background-color: hsl(224deg, 93%, 58%);
+  border: none;
+  color: hsl(240deg, 75%, 98%);
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.section-one .section-one-box.txt form [type=submit]:hover {
+  cursor: pointer;
+}
+.section-one .img img {
+  width: 90%;
+}
+
+.section-two {
+  margin: 1rem 0 0rem 0;
+  padding-bottom: 2rem;
+}
+.section-two picture {
+  position: relative;
+  top: 10px;
+  z-index: 0;
+}
+.section-two picture img {
+  width: 100%;
+}
+.section-two .content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
+.section-two .content .section-two-box.txt-area {
+  width: 55%;
+}
+.section-two .content .section-two-box.img {
+  width: 45%;
+}
+.section-two .content .section-two-box.img img {
+  width: 100%;
+}
+.section-two .content .section-two-box {
+  background-color: hsl(240deg, 75%, 98%);
+  padding: 4.5rem 2.3rem;
+}
+.section-two .content .section-two-box h1 {
+  font-size: 2.5rem;
+  margin: 0 0 2rem 0;
+  font-family: "Raleway", sans-serif;
+}
+.section-two .content .section-two-box p {
+  font-size: 1.2rem;
+  margin: 0 3rem 1rem 0;
+  line-height: 1.5rem;
+}
+.section-two .content .section-two-box a.see-how-link {
+  display: flex;
+  align-items: center;
+  display: inline-block;
+  cursor: pointer;
+}
+.section-two .content .section-two-box a.see-how-link p {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 7px;
+  color: hsl(170deg, 45%, 43%);
+  padding: 0 0 0px 0;
+  font-size: 15px;
+  border-bottom: 2px solid hsl(170deg, 45%, 43%);
+}
+.section-two .content .section-two-box a.see-how-link p img {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  transition: 0.6s ease;
+}
+.section-two .content .section-two-box a.see-how-link p:hover img {
+  transform: translateX(10px);
+}
+.section-two .content .section-two-box .quote-area {
+  width: 360px;
+  height: 210px;
+  background-color: hsl(240deg, 75%, 98%);
+  padding: 1.5rem;
+  box-shadow: 0 0 40px -25px hsl(243deg, 87%, 12%);
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+.section-two .content .section-two-box .quote-area p {
+  font-size: 12px;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+.section-two .content .section-two-box .quote-area .reviewer {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 0 0;
+}
+.section-two .content .section-two-box .quote-area .reviewer .img img {
+  width: 35px;
+  border-radius: 50%;
+}
+.section-two .content .section-two-box .quote-area .reviewer .name {
+  margin-left: 10px;
+}
+.section-two .content .section-two-box .quote-area .reviewer .name p.person-name {
+  margin: 0;
+  line-height: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+.section-two .content .section-two-box .quote-area .reviewer .name p.person-job {
+  margin: 0;
+  font-size: 10px;
+}
+
+.section-three {
+  background-color: hsl(238deg, 22%, 44%);
+  display: flex;
+  align-items: center;
+  padding: 2rem 2.5rem;
+}
+.section-three section {
+  width: 50%;
+}
+.section-three section.left {
+  padding: 5rem 8rem 5rem 2rem;
+}
+.section-three section.left h1 {
+  color: hsl(240deg, 75%, 98%);
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+  font-family: "Raleway", sans-serif;
+}
+.section-three section.left p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: hsl(0deg, 0%, 75%);
+}
+.section-three section.right {
+  padding: 0 4rem 0 7rem;
+}
+.section-three section.right form [type=email] {
+  display: block;
+  width: 100%;
+  min-width: 230px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  color: hsla(0deg, 0%, 75%, 0.796);
+  margin-bottom: 1rem;
+  outline: none;
+}
+.section-three section.right form [type=email]::-moz-placeholder {
+  opacity: 0.5;
+}
+.section-three section.right form [type=email]:-ms-input-placeholder {
+  opacity: 0.5;
+}
+.section-three section.right form [type=email]::placeholder {
+  opacity: 0.5;
+}
+.section-three section.right form [type=email]:focus {
+  color: hsl(243deg, 87%, 12%);
+  border: 1px solid red;
+}
+.section-three section.right form [type=button] {
+  width: 40%;
+  min-width: 150px;
+  height: 45px;
+  border-radius: 5px;
+  display: block;
+  border: none;
+  background-color: hsl(224deg, 93%, 58%);
+  color: hsl(240deg, 75%, 98%);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.section-three section.right form [type=button]:hover {
+  background-color: hsl(170deg, 45%, 43%);
+}
+
+.section-four {
+  background-color: hsl(243deg, 87%, 12%);
+  display: flex;
+  padding: 5rem 0rem;
+  color: hsl(240deg, 75%, 98%);
+  justify-content: space-around;
+}
+.section-four ul li {
+  list-style: none;
+  display: block;
+  margin: 1.3rem;
+}
+.section-four ul li a {
+  text-decoration: none;
+  transition: 0.5s ease;
+  color: hsl(240deg, 75%, 98%);
+}
+.section-four ul li a:hover {
+  color: hsl(170deg, 45%, 43%);
+}
+.section-four .section-four-box.one p {
+  margin-top: 1.2rem;
+  font-size: 15px;
+}
+.section-four .section-four-box.two,
+.section-four .section-four-box.three,
+.section-four .section-four-box.four {
+  padding-top: 4rem;
+}
+.section-four .section-four-box.four {
+  padding: 5rem 8rem 0 0;
+}
+.section-four .section-four-box.four a {
+  display: inline-block;
+  margin: auto;
+  text-decoration: none;
+  width: 35px;
+  height: 35px;
+  padding: 1rem;
+  font-size: 0.8rem;
+  transition: 0.5s ease;
+  border-radius: 50%;
+  color: hsl(240deg, 75%, 98%);
+  border: 1px solid hsl(240deg, 75%, 98%);
+  margin-right: 10px;
+}
+.section-four .section-four-box.four a .fa-brands {
+  transform: translate(-3px, -5px);
+}
+.section-four .section-four-box.four a .fa-twitter,
+.section-four .section-four-box.four a .fa-instagram {
+  transform: translate(-5px, -5px);
+}
+.section-four .section-four-box.four a:hover {
+  color: hsl(170deg, 45%, 43%);
+  border-color: hsl(170deg, 45%, 43%);
+}
+
+@media screen and (max-width: 820px) {
+  header {
+    padding: 2rem 1rem;
+  }
+  header .logo-container img {
+    width: 90px;
+  }
+  header nav ul li {
+    margin-right: 0.5rem;
+  }
+  header nav ul li a {
+    font-size: 0.8rem;
+  }
+  .section-one {
+    flex-direction: column-reverse;
+    padding: 1rem;
+    align-items: center;
+  }
+  .section-one .section-one-box {
+    width: 100%;
+  }
+  .section-one .section-one-box.txt {
+    padding: 0rem;
+  }
+  .section-one .section-one-box.txt h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .section-one .section-one-box.txt p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    text-align: center;
+    margin: 0 1.5rem 1.5rem;
+  }
+  .section-one .section-one-box.txt form [type=email] {
+    width: 100%;
+    margin: 0 0 1rem;
+  }
+  .section-one .section-one-box.txt form [type=submit] {
+    width: 100%;
+  }
+  .section-two .content {
+    flex-direction: column-reverse;
+  }
+  .section-two .content .section-two-box.txt-area {
+    width: 100%;
+    padding: 0;
+  }
+  .section-two .content .section-two-box.img {
+    width: 100%;
+    padding: 0;
+  }
+  .section-two .content .section-two-box {
+    padding: 1rem;
+  }
+  .section-two .content .section-two-box h1 {
+    margin: 0 0 2rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .section-two .content .section-two-box p {
+    margin: 0 1.25rem 1rem;
+    font-size: 0.75rem;
+    text-align: left;
+    line-height: 1.2rem;
+    color: hsl(238deg, 22%, 44%);
+  }
+  .section-two .content .section-two-box a.see-how-link {
+    margin-left: 20%;
+    margin-top: 2rem;
+    margin: 1.5rem 0 2rem 20%;
+  }
+  .section-two .content .section-two-box .quote-area {
+    width: 80%;
+    margin: auto;
+    padding: 0.6rem;
+  }
+  .section-three {
+    flex-direction: column;
+    padding: 0;
+  }
+  .section-three section {
+    width: 100%;
+  }
+  .section-three section.left {
+    padding: 3rem 1.5rem 0;
+  }
+  .section-three section.left h1 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .section-three section.left p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0 1rem 0;
+  }
+  .section-three section.right {
+    padding: 1rem;
+  }
+  .section-three section.right form [type=email] {
+    width: 60%;
+    border-radius: 2px;
+    max-width: 420px;
+    margin: 0 auto 1rem;
+  }
+  .section-three section.right form [type=button] {
+    width: 70%;
+    border-radius: 2px;
+    max-width: 420px;
+    margin: 0 auto 1rem;
+    font-size: 15px;
+  }
+  .section-four {
+    flex-direction: column;
+    padding: 5rem 3rem;
+  }
+  .section-four .section-four-box.one p {
+    margin-top: 1.2rem;
+    font-size: 13px;
+  }
+  .section-four .section-four-box.four {
+    padding: 3rem;
+    width: 100%;
+    margin: auto;
+  }
+}/*# sourceMappingURL=fylo.css.map */
