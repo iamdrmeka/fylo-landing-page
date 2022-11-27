@@ -47,12 +47,14 @@ $body-font: "Open Sans", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  // outline: 1px solid red;
   
 }
 
 body {
   font-family: $body-font;
   color:  $desat-blue;
+  // color: red;
 }
 header {
   display: flex;
@@ -86,8 +88,8 @@ header {
 .section-one {
   display: flex;
 //   align-items: flex-start;
-  padding: 2.3rem;
-  margin-bottom: 4rem;
+  padding: 2.3rem 2.3rem 4rem;
+  margin-bottom: 5rem;
   .section-one-box {
     width: 50%;
   }
@@ -150,12 +152,13 @@ header {
 
 //styling section two
 .section-two {
-  margin: 1rem 0 0rem 0;
+  margin: 3rem 0 0rem 0;
   padding-bottom: 2rem;
+  background-color: $nuetral-one;
   picture {
     position: relative;
-    top: 10px;
-    z-index: 0;
+    top: -96px;
+    z-index: 3;
     img {
       width: 100%;
     }
@@ -165,6 +168,7 @@ header {
     position: relative;
     z-index: 1;
     display: flex;
+    
 
     .section-two-box.txt-area {
       width: 55%;
@@ -179,7 +183,7 @@ header {
     }
     .section-two-box {
       // width: 50%;
-      background-color: $nuetral-one;
+      
       padding: 4.5rem 2.3rem;
 
       h1 {

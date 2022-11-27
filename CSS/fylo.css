@@ -49,8 +49,8 @@ header nav ul li a {
 
 .section-one {
   display: flex;
-  padding: 2.3rem;
-  margin-bottom: 4rem;
+  padding: 2.3rem 2.3rem 4rem;
+  margin-bottom: 5rem;
 }
 .section-one .section-one-box {
   width: 50%;
@@ -110,13 +110,14 @@ header nav ul li a {
 }
 
 .section-two {
-  margin: 1rem 0 0rem 0;
+  margin: 3rem 0 0rem 0;
   padding-bottom: 2rem;
+  background-color: hsl(240deg, 75%, 98%);
 }
 .section-two picture {
   position: relative;
-  top: 10px;
-  z-index: 0;
+  top: -96px;
+  z-index: 3;
 }
 .section-two picture img {
   width: 100%;
@@ -136,7 +137,6 @@ header nav ul li a {
   width: 100%;
 }
 .section-two .content .section-two-box {
-  background-color: hsl(240deg, 75%, 98%);
   padding: 4.5rem 2.3rem;
 }
 .section-two .content .section-two-box h1 {
