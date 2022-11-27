@@ -47,11 +47,12 @@ $body-font: "Open Sans", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  
 }
 
 body {
   font-family: $body-font;
+  color:  $desat-blue;
 }
 header {
   display: flex;
@@ -94,14 +95,14 @@ header {
     padding: 3rem 1rem 0 0;
     h1 {
       font-size: $header-font-size;
-      color: $very-dark-blue;
+      // color: $very-dark-blue;
       font-family: $header-font;
       line-height: 3.5rem;
       margin-bottom: 1rem;
     }
     p {
       font-size: 1.4rem;
-      color: $very-dark-blue;
+      // color: $very-dark-blue;
       line-height: 1.8rem;
       margin-bottom: 1.4rem;
     }
