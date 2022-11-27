@@ -113,11 +113,12 @@ header nav ul li a {
   margin: 3rem 0 0rem 0;
   padding-bottom: 2rem;
   background-color: hsl(240deg, 75%, 98%);
+  position: relative;
 }
 .section-two picture {
-  position: relative;
+  position: absolute;
   top: -70px;
-  z-index: 3;
+  z-index: 0;
 }
 .section-two picture img {
   width: 100%;
@@ -380,7 +381,7 @@ header nav ul li a {
     width: 100%;
   }
   .section-two picture {
-    top: -50px;
+    top: -70px;
     left: 0;
     right: 0;
   }

@@ -155,10 +155,11 @@ header {
   margin: 3rem 0 0rem 0;
   padding-bottom: 2rem;
   background-color: $nuetral-one;
+  position: relative;
   picture {
-    position: relative;
+    position: absolute;
     top: -70px;
-    z-index: 3;
+    z-index: 0;
     img {
       width: 100%;
     }
@@ -463,7 +464,7 @@ header {
 
 .section-two {
   picture{
-    top: -50px;
+    top: -70px;
     left: 0;
     right: 0;
   }
