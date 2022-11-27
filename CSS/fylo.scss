@@ -157,7 +157,7 @@ header {
   background-color: $nuetral-one;
   picture {
     position: relative;
-    top: -96px;
+    top: -70px;
     z-index: 3;
     img {
       width: 100%;
@@ -462,6 +462,11 @@ header {
   }
 
 .section-two {
+  picture{
+    top: -50px;
+    left: 0;
+    right: 0;
+  }
     .content {
         flex-direction: column-reverse;
 

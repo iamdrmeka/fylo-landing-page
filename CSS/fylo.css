@@ -116,7 +116,7 @@ header nav ul li a {
 }
 .section-two picture {
   position: relative;
-  top: -96px;
+  top: -70px;
   z-index: 3;
 }
 .section-two picture img {
@@ -378,6 +378,11 @@ header nav ul li a {
   }
   .section-one .section-one-box.txt form [type=submit] {
     width: 100%;
+  }
+  .section-two picture {
+    top: -50px;
+    left: 0;
+    right: 0;
   }
   .section-two .content {
     flex-direction: column-reverse;
